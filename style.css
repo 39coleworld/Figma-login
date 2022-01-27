@@ -1,0 +1,124 @@
+/*CONFIGURAÇÕES GERAIS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    display: block;
+    margin: 128px 277px 0 16px;
+    font-size: 32px;
+    color: #000000;
+}
+
+.paragraph {
+    display: block;
+    margin: 12px 16px 0 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.input-email {
+    display: block;
+    margin: 102px 16px 0 16px;
+    background:  #F2F2F7;
+    border: none;
+    border-radius: 6px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.41px;
+    padding-left: 10px;
+    color: #929292;
+    height: 48px;
+    width: 343px;
+}
+
+.input-password {
+    display: block;
+    margin: 12px 16px 0 16px;
+    background:  #F2F2F7;
+    border: none;
+    border-radius: 6px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.41px;
+    padding-left: 10px;
+    color: #929292;
+    height: 48px;
+    width: 343px;
+}
+
+.link {
+    display: block;
+    margin: 17px 16px 20px 225px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #007AFF;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.button {
+    display: block;
+    margin: 20px 16px 204px 16px;
+    height: 48px;
+    width: 343px;
+    background: rgba(0, 0, 0, 0.94);
+    border: none;
+    border-radius: 10px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.41px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.link-one {
+    display: block;
+    margin: 0 70px 39px 70px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.51);
+    text-decoration: none;
+}
+
+strong {
+    color: #007AFF;
+}
+
+strong:hover {
+    text-decoration: underline;
+}
+
+.brand {
+    display: block;
+    margin: 20px 50px 5px 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.51);
+}
